@@ -3,10 +3,8 @@ from constants import SCREEN_WIDTH,SCREEN_HEIGHT, ASTEROID_MIN_RADIUS, ASTEROID_
 
 def main():
     pygame.init()
-    print("Starting asteroids!")
-
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-
+    
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
